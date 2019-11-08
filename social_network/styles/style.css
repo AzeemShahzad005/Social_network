@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	
+}
+
+
+	
+	
+
+	
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color:#FEFEFE;
+}
+.container{
+	margin:0;
+	padding:0;
+	background-color:#E6E6FA; 
+	
+}
+#head_wrap{
+	width:98.55%;
+	height:80px;
+	margin:0 auto;
+	border-bottom:2px solid #C76D1F;
+	padding:10px;
+	background-color:#1E90FF;
+}
+#header{
+ margin:0 auto;
+ padding:10px;
+ width:98.55%px;
+ height:80px;
+}
+
+.logo{
+	margin:-70px auto;
+	margin-left:30px;
+}
+#form1{
+	float:right;
+	line-height:100px;
+}
+#form1 input{
+	width:150px;
+	height:8px;
+	padding:10px;
+	 
+}
+#form1 button{
+	width:80px;
+	padding:7px;	 
+}
+#form1 button:hover{
+    background-color:transparent;	 
+}
+
+.form2{
+	margin-left:60px;}
+.form2 input{
+	width:250px;
+	height:20px;
+	margin:7px auto;
+	}
+	.form2 select{
+	width:254px;
+	height:25px;
+	margin:7px auto;
+	}
+	.form2 button{
+	width:254px;
+	height:25px;
+	margin:7px auto;
+	}
+	
+	.form2 h1{
+		margin:30px 37px;}
+		.form2 td{
+			font-weight:bold;}
+	
+#content{
+	width:100%;
+	height:533px;
+	margin:0px auto;
+	float:left;
+	margin-top:-15px;
+	
+}
+#content >div > img{
+	height:533px;
+	width:800px;}	
+	.left{
+		width:59.5%;
+		height:533px;
+	
+		float:left;}
+		.right{
+			float:right;
+			width:40%;
+			height:533px;
+			}
+			.footer{
+				width:100%;
+				padding-top:2px;
+				height:20px;
+				background:#1E90FF;
+				color:#C76D1F;
+				clear:both;
+				text-align:center;
+				font-weight:bold;
+				border-top:2px solid brown;
+				}
