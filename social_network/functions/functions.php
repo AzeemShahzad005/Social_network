@@ -68,7 +68,7 @@ function getTopics(){
 			$user_name = $row_user['u_name'];
 			$user_image = $row_user['u_image'];
 			
-			//now displaying all at home
+			//Now displaying all at home
 			echo "<div id='posts'> 
 			<p><img src='user/user_images/$user_image' width='50' height='50'></p>
 			<h3><a href='user_profile.php?user_id=$user_id'>$user_name</a></h3>
@@ -116,7 +116,7 @@ function getTopics(){
             $user_com_id = $row_com['user_id'];
             $u_com_name = $row_com['u_name'];
 			
-			//now displaying all at home
+			//Now displaying all at home
 			echo "<div id='posts'> 
 			<p><img src='user/user_images/$user_image' width='50' height='50'></p>
 			<h3><a href='user_profile.php?user_id=$user_id'>$user_name</a></h3>
@@ -182,7 +182,7 @@ function getTopics(){
 			$user_name = $row_user['u_name'];
 			$user_image = $row_user['u_image'];
 			
-			//now displaying all at home
+			//Now displaying all at home
 			echo "<div id='posts'> 
 			<p><img src='user/user_images/$user_image' width='50' height='50'></p>
 			<h3><a href='user_profile.php?user_id=$user_id'>$user_name</a></h3>
@@ -221,7 +221,7 @@ function getTopics(){
 			$content = $row_posts['post_content'];
 			$post_date = $row_posts['post_date'];
 		
-	//getting the user who has posted the thread
+	                //getting the user who has posted the thread
 			$user = "select * from users where user_id='$user_id' AND posts='yes'";
 			
 			$run_user = mysqli_query($con,$user);
@@ -243,9 +243,9 @@ function getTopics(){
 		}
 function user_posts(){
 	
-	echo"...In function";
+	echo".........In function";
 		global $con;
-	echo"...In function";	
+	echo".........In function";	
 		
 		if(isset($_GET['u_id'])){
 		
@@ -270,7 +270,7 @@ function user_posts(){
 			$user_name = $row_user['u_name'];
 			$user_image = $row_user['u_image'];
 			
-			//now displaying all at home
+			//Now displaying all at home
 			echo "<div id='posts'> 
 			<p><img src='user/user_images/$user_image' width='50' height='50'></p>
 			<h3><a href='user_profile.php?user_id=$user_id'>$user_name</a></h3>
