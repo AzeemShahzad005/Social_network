@@ -11,4 +11,4 @@ Step:1 Download the software setup of Dreamweaver and install for coding Html,cs
 Step:2 Download the software setup of XAMMP and install for mysql database and localhosting. 
 [Click here to visit download page] https://www.apachefriends.org/download.html
 
-Step:3 Import the database file into XAMMP
+Step:3 Download the database file and Import the database file into XAMMP
