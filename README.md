@@ -1,5 +1,5 @@
-## Social_network  ##
-Create a project Social_network using HTML, CSS, Js, PHP and mysql
+# Social_network  
+Create a project Social_network using HTML, CSS, Js, PHP and mysql.
 
 # Getting Started
 All the source code is available inside social_network Directory.
