@@ -12,4 +12,4 @@ Step:2 Download the software setup of XAMMP and install for mysql database and l
 [Click here to visit download page] https://www.apachefriends.org/download.html
 
 Step:3 Download the database file and Import the database file into XAMMP
-Step:3.1 Database file folder ==> DB Social_netwotk
+Step:3.1 Database file folder ===> DB Social_netwotk
